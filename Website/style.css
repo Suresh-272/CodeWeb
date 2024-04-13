@@ -1,0 +1,384 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+nav {
+     background-color: #420c59;
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+  
+}
+
+.logo {
+    width: 80px; /* Adjust as needed */
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+nav ul li {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+nav a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition:  0.3s ease;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+.club-home-page {
+    background-color: #420c59;
+    height: 90vh;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    
+}
+
+.club-home-page h1{ 
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.club-home-page p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.home-left{
+    width: 50%;
+}
+.home-right{
+    width: 50%;
+}
+
+.home-right img {
+    width: 320px;
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+#about {
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 80vh;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#about h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p{
+    padding: 0 10%;
+    font-family:sans-serif;
+}
+
+#past-events{
+    background-color: #420c59;
+    margin-top: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#past-events h2{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#past-events p{
+    padding: 0 10%;
+    color: white;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+
+.event {
+    
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.event p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.event img{
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.event img:hover{
+
+}
+
+
+.event-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* event 2 */
+
+#past-events-2{
+    background-color: rgb(178, 178, 178);
+    margin-top: 100px;
+    padding:  20px;
+    text-align: center;
+    margin: auto;
+}
+#past-events-2 h2{
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#past-events-2 p{
+    padding: 0 10%;
+    font-weight: 300;
+    font-size: 1.1rem;
+    
+}
+
+.event2 {
+    
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.event2 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.event2 img{
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.event-box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* event 3 */
+
+
+#past-events-3{
+    background-color: #420c59;
+    margin-top: 100px;
+    padding:  20px;
+    text-align: center;
+    margin: auto;
+}
+#past-events-3 h2{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#past-events-3 p{
+    padding: 0 10%;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.event3 {
+    
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.event3 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.event3 img{
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.event-box3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#gallery {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.gallery-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+  
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; 
+}
+  
+.gallery-item {
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img {
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#copyright{
+    margin-left: 20px;
+}
+.social{
+    background-color: white; 
+}
+.social ul{
+  display: flex;
+  padding: 0px;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.social ul li .fab{
+    font-size: 30px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+}
+.social ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    transition: .3s;
+}
+
+.social ul li a:hover{
+    transform: translate(0, -10%);
+}
+.social ul li:nth-child(1) a:hover{
+    background-color: #004498;
+}
+.social ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social ul li:nth-child(3) a:hover{
+    background-color: #00d9ff;
+}
+footer {
+    background-color: white;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social ul li {
+    margin-right: 10px;
+}
+
+/* .centered {
+    text-align: right;
+    flex-grow: 1; /* Ensures it takes up remaining space */
+
+
+#copyright{
+    color: black;
+    margin-right: 200px;
+}
